@@ -7,7 +7,7 @@ function App() {
   const [userId, setUserId] = useState(1);
   return (
     <div className="App">
-        <h1>Les details de l'utilisateur</h1>
+        <h1>Détails de l'utilisateur</h1>
         <UserDetails userId={userId}></UserDetails>
     </div>
   );
